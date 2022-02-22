@@ -22,7 +22,7 @@ export default function StartupList(): ReactElement {
 
   return (
     <>
-      <h1>Hello from componenet</h1>
+      <h1>StartupList</h1>
 
       {startUpData.map(
         (item: {
@@ -54,7 +54,7 @@ export default function StartupList(): ReactElement {
                     color="text.secondary"
                     gutterBottom
                   >
-                    {`Founded:${dateFounded}|${employees}employees |${totalFunding}$ |${currentInvestmentStage}Series A`}
+                    {`Founded:${dateFounded}|${employees} employees |${totalFunding}$ |${currentInvestmentStage}`}
                   </Typography>
 
                   <Typography variant="body2">{shortDescription}</Typography>
