@@ -66,47 +66,4 @@ export default function StartupList(): ReactElement {
       )}
     </>
   );
-
-  /*  {
-    startUpData.map(
-      (item: {
-        name: string;
-        employees: string;
-        dateFounded: any;
-        totalFunding: any;
-        currentInvestmentStage: any;
-        shortDescription: any;
-      }) => {
-        const {
-          name,
-          employees,
-          dateFounded,
-          totalFunding,
-          currentInvestmentStage,
-          shortDescription,
-        } = item;
-
-        return (
-          <Fragment>
-            <Paper elevation={3}>
-              <CardContent>
-                <Typography variant="h4" component="div">
-                  {name}
-                </Typography>
-                <Typography
-                  sx={{ fontSize: 14 }}
-                  color="text.secondary"
-                  gutterBottom
-                >
-                  {`Founded:${dateFounded}|${employees}employees |${totalFunding}$ |${currentInvestmentStage}Series A`}
-                </Typography>
-
-                <Typography variant="body2">{shortDescription}</Typography>
-              </CardContent>
-            </Paper>
-          </Fragment>
-        );
-      }
-    );
-  } */
 }
